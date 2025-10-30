@@ -5,21 +5,20 @@
 
 ## 目录（点击跳转）
 
-- [前置准备](#前置准备)
-
-- [适合专业宝宝的极简教程](#适合专业宝宝的极简教程本来就很简单)
-
-- 三种方式：
-
-  - [一键部署反代教程](#一键部署反代)
-
-  - [Fork后部署反代教程](#复刻后部署反代推荐)
-
-  - [手动创建仓库部署反代教程](#手动创建仓库部署反代推荐)
-
-- [LogVar弹幕项目的具体使用方法](#LogVar弹幕项目的具体使用方法)
-
-- [题外话（并非](#题外话并非)
+- [bahamut-api-proxy](#bahamut-api-proxy)
+  - [目录（点击跳转）](#目录点击跳转)
+  - [前置准备](#前置准备)
+  - [适合专业宝宝的极简教程（本来就很简单）](#适合专业宝宝的极简教程本来就很简单)
+  - [一键部署反代](#一键部署反代)
+  - [复刻后部署反代（推荐）](#复刻后部署反代推荐)
+  - [手动创建仓库部署反代（推荐）](#手动创建仓库部署反代推荐)
+      - [4.打开netlify使用github一键登录或者注册登录后导入我们刚刚创建/复刻的github仓库](#4打开netlify使用github一键登录或者注册登录后导入我们刚刚创建复刻的github仓库)
+  - [LogVar弹幕项目的具体使用方法](#logvar弹幕项目的具体使用方法)
+    - [使用PROXY\_URL环境变量使用（LogVar版本\>1.6.2）：](#使用proxy_url环境变量使用logvar版本162)
+  - [题外话（并非](#题外话并非)
+    - [意外报错](#意外报错)
+    - [公益宣传](#公益宣传)
+    - [感谢：](#感谢)
 
 ---
 
@@ -43,7 +42,7 @@
 ## 一键部署反代
 点击以下按钮即可将本项目快速部署到 [Netlify](https://app.netlify.com/) 实现巴哈姆特api的反代：
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/wan0ge/bahamut-api-proxy"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Syunraii/bahamut-api-proxy"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 > 使用一键部署时Netlify分配的是随机域名/项目名，建议部署完毕后点击“Quick setup”重新设置项目名/域名。
 > <img width="1920" height="958" alt="image" src="https://github.com/user-attachments/assets/6c9b2e47-3c65-4cdb-8586-3d3681ce0dd7" />
 
